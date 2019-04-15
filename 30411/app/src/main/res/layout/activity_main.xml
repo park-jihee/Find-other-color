@@ -8,26 +8,23 @@
     tools:context=".MainActivity"
     android:background="#fff">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="다른 색깔 찾기"
-        android:textSize="30sp"
-        android:textColor="#000"
-        android:gravity="center"
-        android:padding="15dp"/>
+        android:layout_height="30sp"
+        android:background="#46649b"></LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginBottom="10dp">
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:padding="5dp"
-            android:textSize="23sp"
+            android:textSize="17sp"
             android:layout_weight="1"
             android:id="@+id/level"
             android:textColor="#000"/>
@@ -35,7 +32,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:textSize="23sp"
+            android:textSize="17sp"
             android:padding="5dp"
             android:layout_weight="1"
             android:gravity="right"
@@ -202,28 +199,27 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginTop="70dp">
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="70dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
             android:text="START"
-            android:background="#0066ff"
+            android:background="#447294"
             android:textColor="#fff"
-            android:textSize="35dp"
-            android:layout_marginTop="30dp"
+            android:textSize="20dp"
             android:id="@+id/start"/>
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="70dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
             android:text="EXIT"
-            android:background="#ffcc00"
+            android:background="#8faabf"
             android:textColor="#fff"
-            android:textSize="35dp"
-            android:layout_marginTop="30dp"
+            android:textSize="20dp"
             android:id="@+id/exit"/>
 
     </LinearLayout>
